@@ -5,7 +5,7 @@ mkdir -p ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ## vimrc
-mv vimrc ~/vimrc
+mv vimrc ~/vimrc  
 vim ~/.vimrc && add source vimrc
 
 ## plugins

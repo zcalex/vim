@@ -150,6 +150,10 @@ let g:go_highlight_build_constraints = 1
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_at_startup = 1
 
+"" ycm                                                                                                                                                   
+let g:ycm_server_python_interpreter='/usr/bin/python'
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+
 map <C-t> :TlistToggle<CR>
 
 map <C-g> :cs find g <C-R>=expand("<cword>")<CR><CR>

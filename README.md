@@ -5,7 +5,8 @@ mkdir -p ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ## vimrc
-mv vimrc ~/vimrc  
+git clone https://github.com/zcalex/vim.git
+mv vim/vimrc ~/vimrc  
 vim ~/.vimrc && add source vimrc
 
 ## plugins
@@ -21,3 +22,4 @@ git submodule update --init --recursive
 
 ## molokai
 git clone https://github.com/tomasr/molokai
+mv molokai.vim ~/.vim/colors

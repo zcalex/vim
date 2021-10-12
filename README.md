@@ -5,7 +5,7 @@ mkdir -p ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ## vimrc
-git clone https://github.com/zcalex/vim.git
+git clone https://github.com/zcalex/vim.git  
 mv vim/vimrc ~/vimrc  
 vim ~/.vimrc && add source vimrc
 
@@ -21,5 +21,5 @@ git submodule update --init --recursive
 ./install.py --clang-completer --go-completer
 
 ## molokai
-git clone https://github.com/tomasr/molokai
+git clone https://github.com/tomasr/molokai  
 mv molokai.vim ~/.vim/colors
